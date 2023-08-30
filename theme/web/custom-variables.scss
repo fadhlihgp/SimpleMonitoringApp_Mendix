@@ -43,7 +43,7 @@ $topbar-minimalheight: 48px;
 $topbar-border-color: $border-color-default;
 
 // Sidebar
-$sidebar-bg: #24276c;
+$sidebar-bg: #cfcfcf;
 
 // Topbar mobile
 $m-header-height: 45px;
@@ -133,12 +133,14 @@ $navigation-sub-color-active: #fff;
 
 // Navigation Sidebar
 $navsidebar-bg: $sidebar-bg;
-$navsidebar-bg-hover: darken($navsidebar-bg, 10%);
-$navsidebar-bg-active: darken($navsidebar-bg, 10%);
+// $navsidebar-bg-hover: darken($navsidebar-bg, 10%);
+// $navsidebar-bg-active: darken($navsidebar-bg, 10%);
+$navsidebar-bg-hover: black;
+$navsidebar-bg-active: black;
 
-$navsidebar-sub-bg: $navsidebar-bg-hover;
-$navsidebar-sub-bg-hover: $navsidebar-bg;
-$navsidebar-sub-bg-active: $navsidebar-bg;
+$navsidebar-sub-bg: $navsidebar-bg;
+$navsidebar-sub-bg-hover: $navsidebar-bg-hover;
+$navsidebar-sub-bg-active: $navsidebar-bg-hover;
 
 $navsidebar-border-color: $navsidebar-bg-hover;
 
@@ -146,13 +148,16 @@ $navsidebar-font-size: $font-size-default;
 $navsidebar-sub-font-size: $font-size-small;
 $navsidebar-glyph-size: 20px; // For glyphicons that you can select in the Mendix Modeler
 
-$navsidebar-color: #fff;
-$navsidebar-color-hover: #fff;
-$navsidebar-color-active: #fff;
+// $navsidebar-color: #fff;
+// $navsidebar-color-hover: #fff;
+// $navsidebar-color-active: #fff;
+$navsidebar-color: black;
+$navsidebar-color-hover: white;
+$navsidebar-color-active: white;
 
-$navsidebar-sub-color: #fff;
-$navsidebar-sub-color-hover: #fff;
-$navsidebar-sub-color-active: #fff;
+$navsidebar-sub-color: black;
+$navsidebar-sub-color-hover: white;
+$navsidebar-sub-color-active: white;
 
 $navsidebar-width-closed: 52px;
 $navsidebar-width-open: 232px;
